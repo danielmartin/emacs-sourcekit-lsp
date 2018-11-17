@@ -19,7 +19,7 @@ Finally, add the following code to your `init.el`:
 ```elisp
 (require 'sourcekit-lsp)
 (setenv "SOURCEKIT_TOOLCHAIN_PATH" "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2018-11-01-a.xctoolchain")
-(setq sourcekit-lsp-executable (expand-file-name "<path_to_sourcekit-lsp>/.build/x86_64-apple-macosx10.10/debug/sourcekit-lsp"))
+(setq sourcekit-lsp-executable (expand-file-name "<path_to_sourcekit-lsp_executable>"))
 ```
 
 You can add `sourcekit-lsp-swift-enable` to your `swift-mode` hook and it will load sourcekit-lsp whenever you visit a `.swift` file.
