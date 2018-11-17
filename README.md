@@ -4,6 +4,10 @@ emacs-sourcekit-lsp is a client for [sourcekit-lsp](https://github.com/apple/sou
 
 Uses [lsp-mode](https://github.com/emacs-lsp/lsp-mode), but it's also open to be extended with additions outside of the LSP protocol, like semantic highlighting, if the server supports that.
 
+## Screenshot
+
+![alt text](https://github.com/danielmartin/emacs-sourcekit-lsp/raw/master/images/main_screenshot.png "Screenshot of sourcekit-lsp in Emacs")
+
 ## Quickstart
 
 You need to download [sourcekit-lsp](https://github.com/apple/sourcekit-lsp) and follow their repo instructions to build it using Swift Package Manager, for example.
