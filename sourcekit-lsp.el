@@ -35,8 +35,7 @@
 
 ;;; Code:
 
-(require 'lsp-mode)
-(require 'lsp-methods)
+(require 'lsp)
 
 ;; ---------------------------------------------------------------------
 ;;   Customization
